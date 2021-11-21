@@ -1,0 +1,686 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: 000;
+	font-size: 24px;
+	background: white;
+	letter-spacing: 0.068em;
+	white-space: nowrap;
+	background: linear-gradient(138.58deg, rgba(124, 186, 255, 0.8) 0%, rgba(81, 158, 245, 0.72) 20.17%, rgba(75, 124, 245, 0.592477) 38.07%, rgba(172, 159, 255, 0.424) 100%);
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	padding-top: 50px;
+    margin: 0;
+    padding-bottom: 10px
+}
+header{
+}
+section{
+	padding-top: 50px;
+	padding-bottom: 130px;
+}
+footer{
+	padding-bottom: 50px;
+}
+ul, li {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	color: black;
+	text-decoration: none;
+}
+li{
+	margin-left: 50px;
+}
+.container{
+	width:  1100px;
+	max-width: 100%;
+	margin: 0 auto; /*позиционирование по центру*/
+}
+.Leble{
+	width: 23%
+}
+.nav{
+	padding-top: 24px;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	font-size:22px;
+}
+.registration{
+	display: flex;
+	align-items: center;
+	margin-left: 132px;
+}
+table {
+	background: rgba(255, 255, 255, 0.72);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+		border-bottom: 1px solid black;
+}
+.advantages{
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	margin-bottom: 60px;
+}
+.imAD{
+	display: flex;
+	justify-content: center;
+	padding-left: 95px;
+	width: 95%
+}
+.Entrance{
+	    flex-direction: column;
+	    position: absolute;
+	    width: 565px;
+	    height: 620px;
+	    left: 30%;
+	    top: 3%;
+	    background: #FFFFFF;
+	    box-sizing: border-box;
+	    border-radius: 25px;
+}
+.EntranceB{
+	display: flex;
+	margin-top: 30px;
+	margin-left: 40px;
+	justify-content: flex-start;
+}
+.EntranceI{
+	width: 40%;
+	cursor: pointer;
+}
+.E{
+	margin-right: 35px;
+	cursor: pointer;
+}
+input[type="text"] {
+	width: 465px;
+    height: 30px;
+    font-size: 24px;
+	border-radius: 30px;
+	padding: 5px;
+	border: 1px solid #c3c3c3;
+}
+input[type="password"] {
+	width: 465px;
+    height: 30px;
+    font-size: 24px;
+	border-radius: 30px;
+	padding: 5px;
+	border: 1px solid #c3c3c3;
+}
+.textbox{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+form{
+	margin-top: 35px;
+}
+.yes{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 50px;
+		align-items: center;
+}
+#zatemnenie {
+	position: absolute;
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+#zatemnenie:target {display: block;}
+#zatemnenie2:target {display: block;}
+.cross{
+	position: absolute;
+    left: 90%;
+    top: 7%;
+    cursor: pointer;
+}
+.cross2{
+	position: absolute;
+    left: 90%;
+    top: 7%;
+    cursor: pointer;
+}
+.hidden-class {
+	overflow: hidden;
+}
+button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	font-size: 14px;
+	color: white;
+	padding: 6px 26px 6px 26px;
+	background: #7FC7FF;
+	border-radius: 50px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	letter-spacing: 0.068em;
+	margin-bottom: 10px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.newbut {
+	display: flex;
+	margin-left: 179px;
+}
+/* Окно входа*/
+.entryWindow{
+ flex-direction: column;
+ position: absolute;
+ width: 565px;
+ height: 300px;
+ left: 30%;
+ top: 3%;
+ background: #FFFFFF;
+ box-sizing: border-box;
+ border-radius: 25px;
+}
+.entImg{
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+.imgEnt{
+	width: 35%;
+	margin: 25px;
+	cursor: pointer;
+}
+.entInp
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.new_name2{
+	margin-bottom: 25px;
+}
+.newbut2{
+	width: 40%;
+	margin-top: 30px;
+}
+.entB{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.bContentTables{
+font-family: 'Montserrat', sans-serif;
+border:1px solid #CCCCCC;
+width:100%;
+moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Google Chrome */
+-khtml-border-radius: 10px; /* KHTML */
+-o-border-radius: 10px; /* Opera */
+-ms-border-radius: 10px; /* IE8 */
+border-radius: 10px; /* CSS3 */
+overflow:hidden;
+margin:0.7em auto;
+}
+.hellp{
+	margin-top: 5%;
+	display: flex;
+  justify-content: center;
+}
+.phel{
+	font-size: 55%;
+
+}
+
+
+
+
+
+
+/*Тут про адаптацию*/
+
+@media screen and (max-width: 1200px) {
+		.container {
+		width: 1000px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container{
+		width: 870px;
+	}
+	.registration {
+			margin-left: 40px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.container{
+		width: 90%;
+	}
+	.Entrance {
+		left: 23%;
+}
+	ul, li {
+			display: flex;
+			flex-direction: column;
+	}
+	.imAD {
+		padding-left: 58px;
+}
+.entryWindow {
+	left: 24%
+}
+}
+@media screen and (max-width: 802px) {
+	.container{
+		width: 90%;
+	}
+	.Entrance {
+		left: 13%;
+}
+	ul, li {
+			display: flex;
+			flex-direction: column;
+	}
+	.imAD {
+    padding-left: 58px;
+}
+.entryWindow {
+	left: 14%;
+}
+}
+@media screen and (max-width: 736px) {
+	.nav {
+			display: flex;
+	    white-space: nowrap;
+	    flex-direction: column;
+	    align-items: flex-start;
+	}
+	.registration {
+	    margin-left: 0px;
+	}
+	ul, li {
+	    font-family: 'Montserrat', sans-serif;
+	    padding: 0;
+	    margin: 0;
+	    display: flex;
+	    flex-direction: column;
+	}
+	.Leble {
+	    width: 45%;
+	    margin-bottom: 14px;
+	}
+	.tabCont{
+		width: 97%;
+	  overflow: scroll;
+	}
+	.imAD {
+	    padding-left: 0;
+	    width: 100%;
+	}
+	/*Окно 1*/
+	.Entrance {
+    width: 480px;
+    height: 550px;
+    left: 10%;
+}
+	.EntranceI {
+	    width: 37%;
+	    cursor: pointer;
+	}
+	.yes {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+	input[type="text"]{
+	width: 440px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 5px;
+	border: 1px solid #c3c3c3;
+
+	}
+	input[type="password"]{
+	width: 440px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 5px;
+	border: 1px solid #c3c3c3;
+	}
+	.agree{
+		font-size: 14px;
+	}
+	.newbut {
+	    display: flex;
+	    margin-left: 120px;
+	}
+	.yes{
+		margin-left: 10px;
+	}
+	.EntranceB {
+		margin-left: 15px;
+	}
+	.cross {
+	    top: 5%;
+	    width: 5%;
+	}
+	/*Окно 2*/
+	.entryWindow {
+    left: 6%;
+    width: 540px;
+}
+	.entImg {
+	    display: flex;
+	    cursor: pointer;
+	    justify-content: flex-start;
+	}
+	.imgEnt {
+	    width: 35%;
+	    margin: 19px;
+	}
+	.cross2 {
+	width: 5%;
+	}
+}
+@media screen and (max-width: 600px) {
+.nav {
+		display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.registration {
+    margin-left: 0px;
+}
+ul, li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.Leble {
+    width: 45%;
+    margin-bottom: 14px;
+}
+.tabCont{
+	width: 97%;
+  overflow: scroll;
+}
+.imAD {
+    padding-left: 0;
+    width: 100%;
+}
+/*Окно 1*/
+.Entrance {
+    width: 310px;
+    height: 550px;
+    left: 1%;
+}.EntranceI {
+    width: 37%;
+    cursor: pointer;
+}
+input[type="text"]{
+width: 290px;
+height: 30px;
+font-size: 20px;
+border-radius: 30px;
+padding: 5px;
+border: 1px solid #c3c3c3;
+
+}
+input[type="password"]{
+	width: 290px;
+height: 30px;
+font-size: 20px;
+border-radius: 30px;
+padding: 5px;
+border: 1px solid #c3c3c3;
+}
+.agree{
+	font-size: 14px;
+}
+.newbut {
+    display: flex;
+    margin-left: 48px;
+}
+.yes{
+	margin-left: 10px;
+}
+.EntranceB {
+	margin-left: 15px;
+}
+.cross {
+    top: 5%;
+    width: 5%;
+}
+/*Окно 2*/
+.entryWindow {
+    left: 5%;
+    width: 342px;
+}
+.entImg {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.imgEnt {
+    width: 35%;
+    margin: 19px;
+}
+.cross2 {
+width: 5%;
+}
+}
+@media screen and (max-width: 375px) {
+	.okn1{
+		width: 90%;
+	}
+	.mail{
+		font-size: 10px;
+	}
+	.nav {
+		display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.registration {
+    margin-left: 0px;
+}
+ul, li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.Leble {
+    width: 45%;
+    margin-bottom: 14px;
+}
+.tabCont{
+	width: 97%;
+  overflow: scroll;
+}
+.imAD {
+    padding-left: 0;
+    width: 100%;
+}
+/*Окно 1*/
+.Entrance {
+    width: 310px;
+    height: 550px;
+    left: 1%;
+}.EntranceI {
+    width: 37%;
+    cursor: pointer;
+}
+input[type="text"]{
+width: 290px;
+height: 30px;
+font-size: 20px;
+border-radius: 30px;
+padding: 5px;
+border: 1px solid #c3c3c3;
+
+}
+input[type="password"]{
+	width: 290px;
+height: 30px;
+font-size: 20px;
+border-radius: 30px;
+padding: 5px;
+border: 1px solid #c3c3c3;
+}
+.agree{
+	font-size: 14px;
+}
+.newbut {
+    display: flex;
+    margin-left: 48px;
+}
+.yes{
+	margin-left: 10px;
+}
+.EntranceB {
+	margin-left: 15px;
+}
+.cross {
+    top: 5%;
+    width: 5%;
+}
+/*Окно 2*/
+.entryWindow {
+	left: 1%;
+	width: 310px;
+}
+.entImg {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.imgEnt {
+    width: 35%;
+    margin: 19px;
+}
+.cross2 {
+width: 5%;
+}
+}
+@media screen and (max-width: 320px) {
+	.okn1{
+		width: 90%;
+	}
+	.mail{
+		font-size: 10px;
+	}
+	.nav {
+		display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.registration {
+    margin-left: 0px;
+}
+ul, li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.Leble {
+    width: 45%;
+    margin-bottom: 14px;
+}
+.tabCont{
+	width: 97%;
+  overflow: scroll;
+}
+.imAD {
+    padding-left: 0;
+    width: 100%;
+}
+/*Окно 1*/
+.Entrance {
+    width: 310px;
+    height: 550px;
+		left: 2%;
+}.EntranceI {
+    width: 37%;
+    cursor: pointer;
+}
+input[type="text"]{
+width: 290px;
+height: 30px;
+font-size: 20px;
+border-radius: 30px;
+padding: 5px;
+border: 1px solid #c3c3c3;
+
+}
+input[type="password"]{
+	width: 290px;
+height: 30px;
+font-size: 20px;
+border-radius: 30px;
+padding: 5px;
+border: 1px solid #c3c3c3;
+}
+.agree{
+	font-size: 14px;
+}
+.newbut {
+    display: flex;
+    margin-left: 48px;
+}
+.yes{
+	margin-left: 10px;
+}
+.EntranceB {
+	margin-left: 15px;
+}
+.cross {
+    top: 5%;
+    width: 5%;
+}
+/*Окно 2*/
+.entryWindow {
+	left: 1%;
+	width: 310px;
+}
+.entImg {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.imgEnt {
+    width: 35%;
+    margin: 19px;
+}
+.cross2 {
+width: 5%;
+}
+.container {
+    width: 93%;
+}
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Файлообменник</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <img src="img/Leble.png" class="Leble">
+        <ul>
+          <li><a href="#">Главное</a></li>
+          <li><a href="#advantages">О нас</a></li>
+          <li><a href="#advantages">Помощь</a></li>
+        </ul>
+        <div class="registration">
+          <img src="img/exit.png">
+          <a href="#">Вход/Регистрация</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+			<div class="tabCont">
+
+      <table id="customers" class="table_block">
+				<table class="bContentTables" style="overflow:hidden;">
+  <tr>
+    <th></th>
+    <th>All files</th>
+    <th><a href="#">Добавить файл</a></th>
+  </tr>
+  <tr>
+    <td>Подготовка_КР4</td>
+    <td>27.02.2021</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>Электротехника</td>
+    <td>13.08.2020</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>БЖД_лаб</td>
+    <td>06.05.2017</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>Мат.анализ</td>
+    <td>16.03.2019</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>Мат.анализ</td>
+    <td>16.03.2019</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>Мат.анализ</td>
+    <td>16.03.2019</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>Подготовка_КР4</td>
+    <td>27.02.2021</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>Электротехника</td>
+    <td>13.08.2020</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td>БЖД_лаб</td>
+    <td>06.05.2017</td>
+    <td><a href="#">Показать</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="#">Показать еще</a></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+    <p id="advantages"class="advantages">Наши приемущества</p>
+    <div>
+      <img src="img/adv.png" class="imAD">
+    </div>
+		<div class="hellp">
+			<p class="phel">Поддержка: administrator@gmail.ru</p>
+		</div>
+  </div>
+  </footer>
+<div class="zatemnenie" id="zatemnenie" style="display:none"></div>
+	<div class="Entrance" style="display:none">
+		<div class="EntranceB">
+			<img src="img/Entrance.png" class="EntranceI E">
+			<img src="img/reg.png" class="EntranceI">
+			<img src="img/cross.png" class = "cross">
+		</div>
+		<div class = "textbox">
+			<form><input type="text" class="new_name" placeholder = "Логин"> </form>
+			<form><input type="text" class="new_email" placeholder = "Введите email"> </form>
+			<form><input type="text" class="new_phone" placeholder = "Телефон"> </form>
+			<form> <input type="password" class="new_password" placeholder = "Пароль"> </form>
+			<form> <input type="password" class="new_password_again" placeholder = "Повторите пароль"> </form>
+		</div>
+		<div class="yes">
+	    	<input type="checkbox" class="check_box"> <p class ="agree">Согласие на обработку данных</p>
+		</div>
+		<button type="button" id="Register" class="newbut" disabled="true">Зарегистрироваться</button>
+	</div>
+
+
+
+
+	<div class="entryWindow" style="display:none">
+		<div class="entImg">
+			<img src="img/E2.png" class="imgEnt">
+			<img src="img/R2.png" class="imgEnt E2">
+			<img src="img/cross.png" class = "cross2">
+
+		</div>
+		<div class="entInp">
+			<input type="text" class="new_name2" placeholder = "Логин">
+			<input type="password" class="new_password2" placeholder = "Пароль">
+		</div>
+		<div class="entB">
+			<button type="button" id="Register2" class="newbut2">Войти</button>
+		</div>
+
+
+	</div>
+
+
+
+
+
+	<script src="js/main.js"></script>
+
+
+
+</body>
